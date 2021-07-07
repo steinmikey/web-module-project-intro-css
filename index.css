@@ -1,9 +1,27 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
 nav :first-child {
-	background-color: #ff764e;
+  background-color: #ff764e;
 }
 nav :nth-child(2) {
-	background-color: #5ed3eb;
+  background-color: #5ed3eb;
 }
 nav :last-child {
-	background-color: #ffcd69;
+  background-color: #ffcd69;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2.5rem;
+}
+
+.first-section {
+  color: white;
 }
