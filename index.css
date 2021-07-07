@@ -47,3 +47,14 @@ table {
 	border-spacing: 0;
 }
 
+
+
+nav :first-child {
+	background-color: #ff764e;
+}
+nav :nth-child(2) {
+	background-color: #5ed3eb;
+}
+nav :last-child {
+	background-color: #ffcd69;
+}
