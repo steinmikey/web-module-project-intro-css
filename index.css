@@ -27,6 +27,10 @@ h1 {
   background-color: #ddb9a3;
 }
 
+.second-section span {
+  font-weight: bold;
+}
+
 footer {
   background-color: #f9e7dc;
 }
