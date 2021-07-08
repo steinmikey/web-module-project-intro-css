@@ -98,7 +98,13 @@ h1 {
 
 footer {
   background-color: #f9e7dc;
+  margin-top: 4vw;
 }
-footer img {
+.footer-image {
   width: 100vw;
+  height: 20.5vw;
+  background-image: url("assets/footer_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -4vw;
 }
