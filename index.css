@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 12vw;
+  padding: 0.8vw 1vw;
+  margin: 3vw 7vw;
+  border-radius: 1.125vw;
+  text-align: center;
+  font-size: 0.8rem;
+}
+nav :first-child {
+  background-color: #ff764e;
+}
+nav :nth-child(2) {
+  background-color: #5ed3eb;
+}
+nav :last-child {
+  background-color: #ffcd69;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 3vw 8vw 4vw;
+}
+header img {
+  display: inline-block;
+  width: 23vw;
+  border-radius: 12vw;
+  margin: 0;
+}
+header div {
+  display: inline-block;
+  width: 60vw;
+  text-align: center;
+}
+header p {
+  font-size: 0.75rem;
+  padding: 1.25vw;
+}
+header p:last-child {
+  margin: auto 10vw;
+  line-height: 0.9rem;
+  letter-spacing: 0.0125rem;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2.125rem;
+  letter-spacing: 0.05rem;
+  margin: 1.5vw;
+}
+
+.first-section {
+  color: white;
+  background-color: #ddb9a3;
+  width: 85vw;
+  padding: 2vw 3vw;
+  margin: 0 auto;
+  font-size: 0.725rem;
+  line-height: 0.8rem;
+  letter-spacing: 0.0125rem;
+  text-align: center;
+}
+
+.second-section {
+  font-size: 0.5rem;
+  line-height: 0.625rem;
+  letter-spacing: 0.0125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section p {
+  width: 24vw;
+  padding: 0;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+.second-section img {
+  width: 10vw;
+  margin: 1.75vw;
+}
+.second-section span {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f9e7dc;
+  margin-top: 4vw;
+}
+.footer-image {
+  width: 100vw;
+  height: 20.5vw;
+  background-image: url("assets/footer_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -4vw;
+}
